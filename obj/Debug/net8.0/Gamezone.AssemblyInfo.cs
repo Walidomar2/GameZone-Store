@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gamezone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b4256072f668f3929397fee85b2b4476ec1030")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d6a60bb22180ea8ffbb5e79c755a3a8815e39a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gamezone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gamezone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

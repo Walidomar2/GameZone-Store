@@ -2,7 +2,7 @@
 {
     public class Device : BaseEntity
     {
-        [MaxLength(50)]
+        [MaxLength(length:50)]
         public string Icon { get; set; } = string.Empty;
     }
 }
