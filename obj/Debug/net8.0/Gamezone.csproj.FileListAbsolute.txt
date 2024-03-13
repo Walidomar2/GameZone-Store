@@ -135,3 +135,4 @@ D:\courses\c# .net\ASP.Net project\Gamezone\bin\Debug\net8.0\runtimes\win\lib\ne
 D:\courses\c# .net\ASP.Net project\Gamezone\obj\Debug\net8.0\Gamezone.csproj.AssemblyReference.cache
 D:\courses\c# .net\ASP.Net project\Gamezone\obj\Debug\net8.0\Gamezone.sourcelink.json
 D:\courses\c# .net\ASP.Net project\Gamezone\obj\Debug\net8.0\Gamezone.csproj.Up2Date
+D:\courses\c# .net\ASP.Net project\Gamezone\bin\Debug\net8.0\libman.json
