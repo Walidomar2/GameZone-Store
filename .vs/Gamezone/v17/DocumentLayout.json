@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\gamedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\gamedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|d:\\courses\\c# .net\\asp.net project\\gamezone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C91F292-C4E4-4775-83E3-0585D0FD4E7E}|Gamezone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,31 +51,83 @@
           ]
         },
         {
-          "DockedHeight": 96,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 108,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "GlobalUsings.cs",
-              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\GlobalUsings.cs",
-              "RelativeToolTip": "GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T00:14:30.328Z",
+              "WhenOpened": "2024-03-13T09:18:49.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "Models\\Device.cs",
+              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Device.cs",
+              "RelativeToolTip": "Models\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:10:06.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameDevice.cs",
+              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\GameDevice.cs",
+              "RelativeDocumentMoniker": "Models\\GameDevice.cs",
+              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\GameDevice.cs",
+              "RelativeToolTip": "Models\\GameDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:10:05.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:10:05.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:10:04.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-13T00:01:50.388Z",
               "EditorCaption": ""
@@ -76,14 +140,14 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T00:00:36.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -93,26 +157,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T23:57:07.27Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T23:34:50.551Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 32,
+          "DockedHeight": 20,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
