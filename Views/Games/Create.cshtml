@@ -21,9 +21,28 @@
                 <label asp-for="CategoryId" class="form-label mt-4"></label>
                 <select class="form-select" asp-for="CategoryId" asp-items="Model.Categories"
                         data-placeholder="Select a category" data-minimum-results-for-search="Infinity">
-                    <option value=""></option>
+                    <option>Select Category</option>
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedDevices" class="form-label mt-4"></label>
+                <select class="form-select" asp-for="SelectedDevices" asp-items="Model.Devices"
+                        data-placeholder="Select devices" data-minimum-results-for-search="Infinity">
+                    <option value=""></option>
+                </select>
+                <span asp-validation-for="SelectedDevices" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="form-label mt-4"></label>
+                <textarea asp-for="Description" class="form-control" placeholder="Description"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cover" class="form-label mt-4"></label>
+                <input type="file" class="form-control" asp-for="Cover">
+                <small class="form-text text-muted">Only .jpg .jpeg .png files are allowed with max size Max File Size 1MB.</small>
+                <span asp-validation-for="Cover" class="text-danger"></span>
             </div>
             <button type="submit" class="btn btn-light text-black mt-4"> Add </button>
         </div>

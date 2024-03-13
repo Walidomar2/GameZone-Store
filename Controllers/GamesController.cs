@@ -24,7 +24,13 @@ namespace Gamezone.Controllers
                 Categories = await _context.Categories
                                         .Select(c => new SelectListItem{Value = c.Id.ToString(),Text = c.Name})
                                         .OrderBy(c => c.Text)
+                                        .ToListAsync(),
+
+                Devices = await _context.Devices
+                                        .Select(d => new SelectListItem {Value = d.Id.ToString() ,Text=d.Name })
+                                        .OrderBy(d => d.Text)
                                         .ToListAsync()
+
             };
 
             return View(viewModel);
