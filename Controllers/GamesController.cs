@@ -1,14 +1,22 @@
 ﻿
+using Gamezone.Interfaces;
 using Gamezone.ViewModels;
 
 namespace Gamezone.Controllers
 {
     public class GamesController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public GamesController(ApplicationDbContext context)
+        private readonly ICategoriesRepository _categoriesRepository;   
+        private readonly IGameDeviceRepository _gameDeviceRepository;
+        private readonly IGamesRepository _gamesRepository;
+        public GamesController(ICategoriesRepository categoriesRepository,
+                               IGameDeviceRepository gameDeviceRepository,
+                               IGamesRepository gamesRepository)
         {
-            _context = context;
+           
+            _categoriesRepository = categoriesRepository;
+            _gameDeviceRepository = gameDeviceRepository;
+            _gamesRepository = gamesRepository;
         }
 
         public IActionResult Index()
@@ -21,19 +29,26 @@ namespace Gamezone.Controllers
         {
             CreateGameFormVM viewModel = new()
             {
-                Categories = await _context.Categories
-                                        .Select(c => new SelectListItem{Value = c.Id.ToString(),Text = c.Name})
-                                        .OrderBy(c => c.Text)
-                                        .ToListAsync(),
-
-                Devices = await _context.Devices
-                                        .Select(d => new SelectListItem {Value = d.Id.ToString() ,Text=d.Name })
-                                        .OrderBy(d => d.Text)
-                                        .ToListAsync()
-
+                Categories = await _categoriesRepository.GetSelectList(),
+                Devices = await _gameDeviceRepository.GetSelectList()
             };
-
             return View(viewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(CreateGameFormVM gameModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                gameModel.Categories = await _categoriesRepository.GetSelectList();
+                gameModel.Devices = await _gameDeviceRepository.GetSelectList();
+                return View(gameModel);
+            }
+
+            await _gamesRepository.Create(gameModel);
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

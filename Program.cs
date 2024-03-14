@@ -1,3 +1,6 @@
+using Gamezone.Interfaces;
+using Gamezone.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? 
@@ -8,6 +11,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICategoriesRepository,CategoriesRepository>();
+builder.Services.AddScoped<IGameDeviceRepository, GameDeviceRepository>();
+builder.Services.AddScoped<IGamesRepository, GamesRepository>();    
 
 var app = builder.Build();
 
