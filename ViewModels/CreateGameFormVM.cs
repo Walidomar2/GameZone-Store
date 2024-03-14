@@ -1,4 +1,6 @@
-﻿namespace Gamezone.ViewModels
+﻿using Gamezone.Attributes;
+
+namespace Gamezone.ViewModels
 {
     public class CreateGameFormVM
     {
@@ -17,6 +19,8 @@
 
         [MaxLength(length:2500)]
         public string Description { get; set; } = string.Empty;
+
+        [AllowedExtension(FileSettings.AllowedExtensions)]
         public IFormFile Cover { get; set; } = default!;
     }
 }

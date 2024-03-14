@@ -13,7 +13,7 @@ namespace Gamezone.Repository
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
-            _imagePath = $"{_webHostEnvironment.WebRootPath}/assets/images/games";
+            _imagePath = $"{_webHostEnvironment.WebRootPath}{FileSettings.ImagePath}";
         }
 
         public async Task Create(CreateGameFormVM gameModel)
@@ -23,7 +23,6 @@ namespace Gamezone.Repository
 
             using var stream = File.Create(path);
             await gameModel.Cover.CopyToAsync(stream);
-            stream.Dispose();
 
             Game game = new()
             {

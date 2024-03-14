@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Gamezone.bundle.scp.css"
     },
     {
+      "Id": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\wwwroot\\assets\\images\\games\\7471fe58-1527-41ab-aa07-caa900f88b36.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\7471fe58-1527-41ab-aa07-caa900f88b36.jpg"
+    },
+    {
+      "Id": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\wwwroot\\assets\\images\\games\\eaaa4b7f-4232-4404-9197-3eb1f6473191.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\eaaa4b7f-4232-4404-9197-3eb1f6473191.jpg"
+    },
+    {
       "Id": "D:\\courses\\c# .net\\ASP.Net project\\Gamezone\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
